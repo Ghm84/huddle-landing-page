@@ -137,14 +137,12 @@ button {
     }
 
     body {
-        max-width: 150%;
-        width: 150%;
         overflow: auto;
     }
 
     .main {
-        max-width: 105%;
-        width: 105%;
+        max-width: 100%;
+        width: 100%;
     }
 
     .container {
@@ -247,5 +245,26 @@ button {
         max-width: 5rem;
         width: 2rem;
         margin-left: 1rem;
+    }
+
+    button:hover {
+        background-color: hsl(300, 69%, 71%);
+        color: hsl(0, 100%, 99%);
+    }
+
+    .facebook-icon:hover {
+        cursor: pointer;
+        background-color: hsl(300, 69%, 71%);
+        border-radius: 4rem;
+    }
+
+    .twitter-icon:hover {
+        cursor: pointer;
+        background-color: hsl(300, 69%, 71%);
+    }
+    
+    .instagram-icon:hover {
+        cursor: pointer;
+        background-color: hsl(300, 69%, 71%);
     }
 }
